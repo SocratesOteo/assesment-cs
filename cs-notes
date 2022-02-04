@@ -1,0 +1,18 @@
+Append is 3 milliseconds, insert is 1.17 seconds,
+For the large array 
+insert is 8 milliseconds
+Append is 615 us
+
+For medium array
+Insert 161.72 us
+Append 155.991 us
+
+For small array
+Insert 47.072 us
+Append 97.053
+
+For tiny array
+Insert 37.29 us
+Append 97.039 us
+
+
