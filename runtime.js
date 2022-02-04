@@ -64,3 +64,61 @@ let resultsInsert = perf.stop();
 console.log('Results for the extraLargeArray');
 console.log("insert", resultsInsert.preciseWords);
 console.log("append", resultsAppend.preciseWords);
+
+
+
+function addToZero(arr){
+    for(i = 0; i< arr.length; i++){
+        if (i + arr == 0){
+            console.log('true')
+        } else if (i + arr != 0){
+            console.log('false')
+        }
+        
+    }
+
+}
+
+addToZero([1,2,3])
+addToZero([1,2,3,-2])
+
+
+console.log(2-2)
+
+function uniqueChars(str){
+    for(i<0; i<str.length; i++){
+    if(i === str *2){
+        console.log('false')
+    } else {
+        console.log('true')
+    }
+    }
+
+}
+
+uniqueChars('moonday')
+uniqueChars('monday')
+
+function pangram(str){
+    if (str.includes(['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'])){
+        console.log('true')
+    }else {
+        console.log('false')
+    }
+}
+
+
+pangram('apple')
+
+function longestWord(arr1,arr2){
+    if(arr1.length > arr2.length){
+        console.log(arr1.length)
+    }else if (arr2.length > arr1.length){
+        console.log(arr2.length)
+    }
+}
+
+longestWord('hello','one')
+
+
+
