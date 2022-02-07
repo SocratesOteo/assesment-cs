@@ -82,6 +82,8 @@ function addToZero(arr){
 addToZero([1,2,3])
 addToZero([1,2,3,-2])
 
+//O(n)
+
 
 console.log(2-2)
 
@@ -96,6 +98,8 @@ function uniqueChars(str){
 
 }
 
+//0(n)
+
 uniqueChars('moonday')
 uniqueChars('monday')
 
@@ -107,6 +111,7 @@ function pangram(str){
     }
 }
 
+//0(n^2)
 
 pangram('apple')
 
@@ -117,6 +122,7 @@ function longestWord(arr1,arr2){
         console.log(arr2.length)
     }
 }
+//O(n*n)
 
 longestWord('hello','one')
 
